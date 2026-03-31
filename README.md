@@ -10,7 +10,7 @@
 
 **Full docs and live demo:** [https://trendsmcp.ai/steam-trends](https://trendsmcp.ai/steam-trends)
 
-Part of **[Trends MCP](https://trendsmcp.ai)** -- the MCP server for live trend data across 12+ sources.
+Part of **[Trends MCP](https://trendsmcp.ai)** - the MCP server for live trend data across 12+ sources.
 See the main repo: [https://github.com/trendsmcp/trends-mcp](https://github.com/trendsmcp/trends-mcp)
 
 ---
@@ -98,7 +98,7 @@ Normalized concurrent player count trends (0-100 scale) for any game on Steam. R
 
 ### How do I identify a game for the query?
 
-Use the game's display name as it appears on Steam -- for example 'Counter-Strike 2', 'Palworld', or 'Elden Ring'. The MCP server resolves the name to the correct Steam App ID automatically.
+Use the game's display name as it appears on Steam - for example 'Counter-Strike 2', 'Palworld', or 'Elden Ring'. The MCP server resolves the name to the correct Steam App ID automatically.
 
 ### What is a concurrent player count?
 
@@ -127,7 +127,7 @@ Browse all: [https://trendsmcp.ai/data-sources](https://trendsmcp.ai/data-source
 
 ## Also works as a Python client
 
-Same API key works directly in Python — no MCP host needed.
+Same API key works directly in Python - no MCP host needed.
 
 ```bash
 pip install steam-trends-mcp
