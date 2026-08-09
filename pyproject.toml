@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "steam-trends-mcp"
-version = "1.0.0"
+version = "1.1.0"
 description = "Steam player trends as an MCP tool. Plug into Claude, Cursor, or any MCP-compatible AI host. Weekly series, growth percentages, and live Steam trending games. Powered by trendsmcp.ai"
 readme = "README.md"
 license = "MIT"
@@ -28,18 +28,22 @@ classifiers = [
   "Intended Audience :: Developers",
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
   "Topic :: Internet :: WWW/HTTP",
   "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-dependencies = ["trendsmcp>=1.0.0"]
+dependencies = ["trendsmcp>=1.1.0"]
 
 [project.urls]
 Homepage = "https://trendsmcp.ai"
 Documentation = "https://trendsmcp.ai/docs"
 Repository = "https://github.com/trendsmcp/steam-trends-mcp"
-"Get API Key" = "https://trendsmcp.ai"
+"Get API Key" = "https://trendsmcp.ai/account?tab=signup"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/steam_trends_mcp"]
-
-
