@@ -18,7 +18,7 @@ See the main repo: [https://github.com/trendsmcp/trends-mcp](https://github.com/
 ## Get started in 2 steps
 
 **Step 1:** Get your free API key at **[trendsmcp.ai](https://trendsmcp.ai)**
-100 requests/day, no credit card required.
+100 requests/month, no credit card required.
 
 **Step 2:** Add to your AI client (replace `YOUR_API_KEY`):
 
